@@ -8,6 +8,7 @@ import { name } from "./package.json";
 export default defineConfig({
   proxy,
   routes,
+  history:{type:"hash"},
   nodeModulesTransform:{type:"none"},
   devServer: {
     port: 7005
