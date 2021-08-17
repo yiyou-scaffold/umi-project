@@ -2,7 +2,7 @@ import { defineConfig } from "umi";
 
 import proxy from "./config/proxy";
 import routes from "./config/routes";
-import { name } from "./package.json";
+import {name} from "./package.json";
 
 // ref: https://umijs.org/config/
 export default defineConfig({
